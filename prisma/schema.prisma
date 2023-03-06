@@ -11,6 +11,7 @@ datasource db {
 }
 
 model Pokemon {
+  // un uuid unique ici pour l'ID 
   name String  @unique
   type1 String
   type2 String
